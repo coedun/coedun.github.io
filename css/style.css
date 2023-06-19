@@ -13,13 +13,20 @@ body {
   }
   
   
-  dd {
+  dd, dt {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
     line-height: 16px;
     display: flex;
+  }
+
+  dl {
+    margin: auto;
+    width: 50%;
     text-align: center;
+    padding: 10px;
+
   }
 
