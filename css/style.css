@@ -1,11 +1,27 @@
+
+/* For Mobile */
+@media screen and (max-width: 540px) {
+  body {
+      width: 100%;
+  }
+}
+
+
+#intropara {
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+}
+
 body {
   background-color: #F5F5F5;
+  width: 100%;
 }
 
 div {
   padding: 0.5rem;
   text-align: center;
-  display: flex;
+   display: flex;
   display: none;
 }
 
@@ -13,35 +29,46 @@ h1 {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 6rem;
   line-height: 34px;
-  display: flex;
   position: relative;
-  left: 40%;
+  text-align: center;
+  width: 100%;
 }
 
 
-dd, dt {
+dd, dt  {
   font-family: 'Inter';
   font-style: normal;
-  font-weight: 400;
-  font-size: 0.8rem;
+  font-size: 2rem;
   line-height: 1.rem;
   padding: 0.5rem;
+    
   display: flex;
+}
+
+dd {
+  font-weight: bolder;
 }
 
 dt {
-  font-weight: 1200;
-  font-size: 1rem;
+  font-weight: bold;
+  font-size: 3rem;
 }
 
 dl {
   margin: auto;
-  width: 50%;
+  width: 80%;
   text-align: center;
   padding: 10px;
   border: 3px solid green;
 
 }
 
+p {
+  text-align: justify;
+  font-family: 'Inter';
+  font-size: 1.5rem;
+  padding: o.5rem;
+  font-weight: lighter;
+}
